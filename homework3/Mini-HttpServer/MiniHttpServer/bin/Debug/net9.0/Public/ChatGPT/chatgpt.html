@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>ChatGPT</title>
+    <style>
+      body {
+        margin: 0;
+        background: #202123;
+        font-family: Arial, sans-serif;
+        color: #fff;
+      }
+
+      .left-top-logo {
+        position: fixed;
+        top: 12px;
+        left: 12px;
+        right: 12px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .left-logo img {
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+      }
+      .right-top-actions {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+      .button {
+        padding: 6px 14px;
+        border-radius: 20px;
+        border: none;
+        font-size: 14px;
+        cursor: pointer;
+      }
+      .button-signin {
+        background: #fff;
+        color: #000;
+      }
+      .button-signup {
+        background: #2c2c2c;
+        color: #eee;
+        border: 1px solid #3a3a3a;
+      }
+      .help img {
+        width: 22px;
+        height: 22px;
+      }
+
+      .center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+      .title {
+        font-size: 32px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+      .search-bar {
+        width: 680px;
+        max-width: 95%;
+        background: #343541;
+        border-radius: 16px;
+        padding: 16px 90px 56px 16px;
+        position: relative;
+      }
+      .input-bar {
+        text-align: left;
+        color: #c9c9c9;
+        font-size: 16px;
+      }
+
+      .icons {
+        position: absolute;
+        bottom: 10px;
+        left: 12px;
+        display: flex;
+        gap: 8px;
+      }
+      .icon {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        background: #3a3b41;
+        color: #eee;
+        border: none;
+        border-radius: 16px;
+        padding: 6px 12px;
+        font-size: 13px;
+        cursor: pointer;
+      }
+      .icon img {
+        width: 16px;
+        height: 16px;
+      }
+
+      .voice-button {
+        position: absolute;
+        right: 12px;
+        bottom: 10px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        background: #3a3b41;
+        color: #eee;
+        border: none;
+        border-radius: 16px;
+        padding: 6px 12px;
+        font-size: 13px;
+        cursor: pointer;
+      }
+      .voice-button img {
+        width: 16px;
+        height: 16px;
+      }
+
+      .footer {
+        position: fixed;
+        bottom: 10px;
+        width: 100%;
+        text-align: center;
+        font-size: 12px;
+        color: #b9b9b9;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="left-top-logo">
+      <div class="left-logo">
+        <img src="images/icons8-chatgpt-50 (1).png" alt="Chatgpt logo" />
+      </div>
+      <div class="right-top-actions">
+        <button class="button button-signin">Sign in</button>
+        <button class="button button-signup">Sign up</button>
+        <div class="help">
+          <img src="images/icons8-help-50.png" alt="help" />
+        </div>
+      </div>
+    </div>
+
+    <div class="center">
+      <div class="title">ChatGPT</div>
+      <div class="search-bar">
+        <div class="input-bar">Ask anything</div>
+        <div class="icons">
+          <button class="icon">
+            <img src="images/icons8-paper-clip-48.png" alt="Add" /> Add
+          </button>
+          <button class="icon">
+            <img src="images/icons8-web-48.png" alt="Search" /> Search
+          </button>
+        </div>
+        <button class="voice-button">
+          <img src="images/icons8-audio-wave-30.png" alt="Audio" /> Audio
+        </button>
+      </div>
+    </div>
+
+    <div class="footer">
+      By sending a message to ChatGPT, you agree to our Terms and have read our
+      Privacy Policy. See Cookie Preferences.
+    </div>
+  </body>
+</html>

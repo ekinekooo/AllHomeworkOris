@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Forget Form</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+
+    <!-- Icons -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Left visual column-->
+        <div
+          class="col-lg-6 col-md-6 d-none d-md-block image-container"
+          aria-hidden="true"
+        ></div>
+
+        <!-- Right form column -->
+        <div class="col-lg-6 col-md-6 form-container">
+          <div class="col-lg-8 col-md-12 col-sm-9 col-xs-12 form-box">
+            <div class="text-center logo mb-3">
+              <img src="image/logo.png" width="150" height="auto" alt="Logo" />
+            </div>
+
+            <!-- Form view -->
+            <div class="reset-form d-block">
+              <form class="reset-password-form" novalidate>
+                <h4 class="mb-3">Reset your password</h4>
+                <p class="mb-3 text-white">Please enter your email address</p>
+
+                <div class="form-input">
+                  <span aria-hidden="true"><i class="fa fa-envelope"></i></span>
+                  <label class="sr-only" for="email">Email Address</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    class="form-control"
+                    placeholder="Email Address"
+                    inputmode="email"
+                    autocomplete="email"
+                    spellcheck="false"
+                    required
+                    aria-required="true"
+                  />
+                </div>
+
+                <div class="mb-3">
+                  <button
+                    class="btn"
+                    type="submit"
+                    id="send-reset-btn"
+                    aria-label="Send reset link"
+                  >
+                    Send Reset link
+                  </button>
+                </div>
+              </form>
+            </div>
+
+            <!-- Confirmation view -->
+            <div class="reset-confirmation d-none" aria-live="polite">
+              <div class="mb-4">
+                <h4 class="mb-3">Link was sent</h4>
+                <h6 class="text-white">Please check your inbox</h6>
+              </div>
+              <div>
+                <a href="login.html">
+                  <button type="button" class="btn">Login Now</button>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts (keep jQuery slim + order) -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+    <script>
+      (function () {
+        function PasswordReset() {
+          var isSubmitting = false;
+
+          $("form.reset-password-form").on("submit", function (e) {
+            e.preventDefault();
+            if (isSubmitting) return;
+            isSubmitting = true;
+
+            $(".reset-form").removeClass("d-block").addClass("d-none");
+
+            $(".reset-confirmation").removeClass("d-none").addClass("d-block");
+          });
+
+          $("#email").on("keydown", function (e) {
+            if (e.key === "Enter") {
+              $("#send-reset-btn").focus();
+            }
+          });
+        }
+
+        if (
+          document.readyState === "complete" ||
+          document.readyState === "interactive"
+        ) {
+          PasswordReset();
+        } else {
+          window.addEventListener("load", PasswordReset);
+        }
+      })();
+    </script>
+  </body>
+</html>

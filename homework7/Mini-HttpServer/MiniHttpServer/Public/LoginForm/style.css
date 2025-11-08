@@ -1,0 +1,159 @@
+:root {
+  --brand: #fccc00;
+  --ink: #000;
+  --white: #fff;
+  --muted: #777;
+  --accent: #48403d;
+  --link-hover: #292525;
+
+  --fb: #4866a8;
+  --fb-hover: #3d5785;
+  --gg: #da3f34;
+  --gg-hover: #bf3b31;
+  --tw: #33ccff;
+  --tw-hover: #2eb7e5;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.image-container {
+  background: url("image/bg.jpg") center / cover no-repeat;
+  height: 100vh;
+}
+
+.form-container {
+  background-color: var(--brand);
+  display: flex;
+  justify-content: center;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.form-box h4 {
+  font-weight: bold;
+  color: var(--white);
+}
+
+.form-box .form-input {
+  position: relative;
+}
+
+.form-box .form-input input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  background: var(--white);
+  padding-left: 45px;
+}
+
+.form-box .form-input span {
+  position: absolute;
+  top: 8px;
+  left: 20px;
+  color: var(--muted);
+}
+
+.form-box .form-input input::placeholder {
+  padding-left: 0;
+}
+
+.form-box .form-input input:focus,
+.form-box .form-input input:valid {
+  border-bottom: 2px solid var(--accent);
+}
+
+.form-box input[type="checkbox"]:not(:checked) + label:before {
+  background: transparent;
+  border: 2px solid var(--white);
+  width: 15px;
+  height: 15px;
+}
+
+.form-box
+  .custom-checkbox
+  .custom-control-input:checked
+  ~ .custom-control-label::before {
+  background-color: var(--accent);
+  border: 0;
+}
+
+.forget-link,
+.register-link,
+.login-link {
+  color: var(--white);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.forget-link:hover,
+.register-link:hover,
+.login-link:hover {
+  color: var(--link-hover);
+}
+
+.form-box button[type="submit"] {
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  border-right: 5px;
+  background-color: var(--white);
+  color: var(--ink);
+  font-weight: bold;
+  transition: box-shadow 0.5s;
+}
+
+.form-box button[type="submit"]:hover {
+  box-shadow: 0 9px 10px -2px rgba(0, 0, 0, 0.55);
+  -webkit-box-shadow: 0 9px 10px -2px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 0 9px 10px -2px rgba(0, 0, 0, 0.55);
+}
+
+.form-box .btn-social {
+  color: var(--white);
+  border: 0;
+  display: inline-block;
+  margin: 0 10px 10px 0;
+  font-weight: bold;
+}
+
+.form-box .btn-facebook {
+  background: var(--fb);
+}
+.form-box .btn-google {
+  background: var(--gg);
+}
+.form-box .btn-twitter {
+  background: var(--tw);
+}
+
+.form-box .btn-facebook:hover {
+  background: var(--fb-hover);
+  color: var(--white);
+}
+.form-box .btn-google:hover {
+  background: var(--gg-hover);
+  color: var(--white);
+}
+.form-box .btn-twitter:hover {
+  background: var(--tw-hover);
+  color: var(--white);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .form-box button[type="submit"] {
+    transition: none;
+  }
+}

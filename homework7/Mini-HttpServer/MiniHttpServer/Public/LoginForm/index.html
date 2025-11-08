@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login Form</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div
+          class="col-lg-6 col-md-6 d-none d-md-block image-container"
+          aria-hidden="true"
+        ></div>
+
+        <div class="col-lg-6 col-md-6 form-container">
+          <div
+            class="col-lg-8 col-md-12 col-sm-9 col-xs-12 form-box text-center"
+          >
+            <div class="logo mb-3">
+              <img src="image/logo.png" width="150" height="auto" alt="Logo" />
+            </div>
+
+            <div class="heading mb-4">
+              <h4>Login into your account</h4>
+            </div>
+
+            <form method="post" action="/auth" autocomplete="on" novalidate>
+              <div class="form-input text-left">
+                <span aria-hidden="true"><i class="fa fa-envelope"></i></span>
+                <label class="sr-only" for="email">Email Address</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  class="form-control"
+                  placeholder="Email Address"
+                  inputmode="email"
+                  autocomplete="email"
+                  spellcheck="false"
+                  required
+                  aria-required="true"
+                />
+              </div>
+
+              <div class="form-input text-left">
+                <span aria-hidden="true"><i class="fa fa-lock"></i></span>
+                <label class="sr-only" for="password">Password</label>
+                <input
+                  id="password"
+                  name="password"
+                  type="password"
+                  class="form-control"
+                  placeholder="Password"
+                  autocomplete="current-password"
+                  required
+                  aria-required="true"
+                />
+              </div>
+
+              <div class="row mb-3 align-items-center">
+                <div class="col-6 d-flex">
+                  <div class="custom-control custom-checkbox">
+                    <input
+                      type="checkbox"
+                      class="custom-control-input"
+                      id="cb1"
+                      name="remember"
+                      value="true"
+                    />
+                    <label class="custom-control-label text-white" for="cb1"
+                      >Remember me</label
+                    >
+                  </div>
+                </div>
+                <div class="col-6 text-right">
+                  <a href="forget.html" class="forget-link">Forget Password</a>
+                </div>
+              </div>
+
+              <div class="text-left mb-3">
+                <button type="submit" class="btn">Login</button>
+              </div>
+
+              <div class="text-center mb-2">
+                <div class="mb-3" style="color: #777">or login with</div>
+
+                <a href="#" class="btn btn-social btn-facebook" rel="noopener"
+                  >facebook</a
+                >
+                <a href="#" class="btn btn-social btn-google" rel="noopener"
+                  >google</a
+                >
+                <a href="#" class="btn btn-social btn-twitter" rel="noopener"
+                  >twitter</a
+                >
+              </div>
+
+              <div style="color: #777">
+                Don't have an account
+                <a href="register.html" class="register-link">Register here</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

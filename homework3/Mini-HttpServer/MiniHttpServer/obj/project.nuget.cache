@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1jtklpIFUfw=",
+  "success": true,
+  "projectFilePath": "/Users/mehmetkaanemmedik/ORIS/homework3/Mini-HttpServer/MiniHttpServer/MiniHttpServer.csproj",
+  "expectedPackageFiles": [
+    "/Users/mehmetkaanemmedik/.nuget/packages/microsoft.visualstudio.azure.containers.tools.targets/1.22.1/microsoft.visualstudio.azure.containers.tools.targets.1.22.1.nupkg.sha512"
+  ],
+  "logs": []
+}

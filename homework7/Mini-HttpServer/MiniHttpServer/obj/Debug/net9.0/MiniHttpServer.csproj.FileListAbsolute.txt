@@ -1,0 +1,6 @@
+/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MiniHttpServer/obj/Debug/net9.0/MiniHttpServer.csproj.AssemblyReference.cache
+/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MiniHttpServer/obj/Debug/net9.0/MiniHttpServer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MiniHttpServer/obj/Debug/net9.0/MiniHttpServer.AssemblyInfoInputs.cache
+/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MiniHttpServer/obj/Debug/net9.0/MiniHttpServer.AssemblyInfo.cs
+/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MiniHttpServer/obj/Debug/net9.0/MiniHttpServer.csproj.CoreCompileInputs.cache
+/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MiniHttpServer/obj/Debug/net9.0/MiniHttpServer.sourcelink.json

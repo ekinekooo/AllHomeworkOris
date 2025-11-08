@@ -1,0 +1,13 @@
+/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MyORMContext/bin/Debug/net9.0/MyORMLibrary.deps.json
+/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MyORMContext/bin/Debug/net9.0/MyORMLibrary.dll
+/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MyORMContext/bin/Debug/net9.0/MyORMLibrary.pdb
+/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MyORMContext/obj/Debug/net9.0/MyORMLibrary.csproj.AssemblyReference.cache
+/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MyORMContext/obj/Debug/net9.0/MyORMLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MyORMContext/obj/Debug/net9.0/MyORMLibrary.AssemblyInfoInputs.cache
+/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MyORMContext/obj/Debug/net9.0/MyORMLibrary.AssemblyInfo.cs
+/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MyORMContext/obj/Debug/net9.0/MyORMLibrary.csproj.CoreCompileInputs.cache
+/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MyORMContext/obj/Debug/net9.0/MyORMLibrary.sourcelink.json
+/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MyORMContext/obj/Debug/net9.0/MyORMLibrary.dll
+/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MyORMContext/obj/Debug/net9.0/refint/MyORMLibrary.dll
+/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MyORMContext/obj/Debug/net9.0/MyORMLibrary.pdb
+/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MyORMContext/obj/Debug/net9.0/ref/MyORMLibrary.dll

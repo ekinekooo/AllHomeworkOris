@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>searcher</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Afacad:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        margin: 0;
+        background: #fff;
+        font-family: "Afacad", Arial, sans-serif;
+        color: #111;
+        text-align: center;
+      }
+
+      .weather {
+        position: absolute;
+        top: 20px;
+        right: 18px;
+        text-align: right;
+        font-size: 32px;
+        line-height: 1.1;
+      }
+      .weather .city {
+        display: block;
+        margin-top: 6px;
+        font-size: 20px;
+        color: #6e6cdf;
+        font-weight: 700;
+      }
+
+      .clock {
+        font-size: 74px;
+        font-weight: 800;
+        margin: 260px 0 10px;
+      }
+      .greet {
+        font-size: 36px;
+        color: #6e6cdf;
+        font-weight: 700;
+        margin: 0 0 28px;
+      }
+
+      .search {
+        width: 620px;
+        max-width: 92%;
+        height: 65px;
+        margin: 0 auto 26px;
+        padding: 0 14px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        background: #fafafa;
+        border: 1px solid #eee;
+        border-radius: 16px;
+        box-sizing: border-box;
+      }
+
+      .search-bubble img {
+        width: 12px;
+        height: 12px;
+        display: block;
+        opacity: 0.6;
+      }
+
+      .search input {
+        flex: 1;
+        border: none;
+        outline: none;
+        background: transparent;
+        font-size: 16px;
+        color: #333;
+      }
+      .search input::placeholder {
+        color: #9aa2b1;
+      }
+
+      .icons {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 14px;
+        margin: 0 auto 40px;
+        max-width: 92%;
+      }
+      .icon {
+        width: 48px;
+        height: 48px;
+        border: 1px solid #eee;
+        border-radius: 12px;
+        background: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .icon img {
+        max-width: 60%;
+        max-height: 60%;
+        display: block;
+      }
+
+      @media (max-width: 480px) {
+        .weather {
+          top: 12px;
+          right: 10px;
+          font-size: 22px;
+        }
+        .weather .city {
+          font-size: 14px;
+          margin-top: 4px;
+        }
+
+        .clock {
+          font-size: 44px;
+          margin: 120px 0 10px;
+        }
+        .greet {
+          font-size: 18px;
+          margin-bottom: 24px;
+        }
+
+        .search {
+          height: 52px;
+          max-width: 92%;
+          margin-top: 140px;
+          margin-bottom: 18px;
+          border-radius: 16px;
+        }
+        .search-bubble {
+          width: 22px;
+          height: 22px;
+        }
+        .search-bubble img {
+          width: 11px;
+          height: 11px;
+        }
+        .search input {
+          font-size: 14px;
+        }
+
+        .icons {
+          gap: 12px;
+          margin-bottom: 26px;
+        }
+        .icon {
+          width: 44px;
+          height: 44px;
+          border-radius: 10px;
+        }
+
+        .hide-mobile {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="weather">
+      36°
+      <span class="city">Ahmedabad</span>
+    </div>
+
+    <h1 class="clock">09:11:01</h1>
+    <p class="greet">Good Morning, Saad.</p>
+
+    <div class="search">
+      <div class="search-bubble">
+        <img src="images/search-01.svg" alt="Search" />
+      </div>
+      <input type="text" placeholder="Search" />
+    </div>
+
+    <div class="icons">
+      <div class="icon"><img src="images/youtube.png" alt="Youtube" /></div>
+      <div class="icon"><img src="images/chat-gpt.png" alt="Chatgpt" /></div>
+      <div class="icon">
+        <img src="images/icons8-geeksforgeeks-48.png" alt="Gfg" />
+      </div>
+      <div class="icon">
+        <img src="images/icons8-deepseek-48.png" alt="Deepseek" />
+      </div>
+      <div class="icon">
+        <img src="images/icons8-github-48.png" alt="Github" />
+      </div>
+
+      <div class="icon hide-mobile">
+        <img src="images/icons8-linked-in-48.png" alt="Linkedin" />
+      </div>
+      <div class="icon hide-mobile">
+        <img src="images/icons8-plus-48.png" alt="Add" />
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,152 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MiniHttpServer/MiniHttpServer.csproj": {}
+  },
+  "projects": {
+    "/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MiniHttpServer/MiniHttpServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MiniHttpServer/MiniHttpServer.csproj",
+        "projectName": "MiniHttpServer",
+        "projectPath": "/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MiniHttpServer/MiniHttpServer.csproj",
+        "packagesPath": "/Users/mehmetkaanemmedik/.nuget/packages/",
+        "outputPath": "/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MiniHttpServer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mehmetkaanemmedik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/opt/homebrew/Cellar/dotnet/9.0.8/libexec/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MyORMContext/MyORMLibrary.csproj": {
+                "projectPath": "/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MyORMContext/MyORMLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Aspose.Email": {
+              "target": "Package",
+              "version": "[25.9.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.1.2, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.22.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.8/libexec/sdk/9.0.109/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MyORMContext/MyORMLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MyORMContext/MyORMLibrary.csproj",
+        "projectName": "MyORMLibrary",
+        "projectPath": "/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MyORMContext/MyORMLibrary.csproj",
+        "packagesPath": "/Users/mehmetkaanemmedik/.nuget/packages/",
+        "outputPath": "/Users/mehmetkaanemmedik/ORIS/homework7/Mini-HttpServer/MyORMContext/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/mehmetkaanemmedik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "/opt/homebrew/Cellar/dotnet/9.0.8/libexec/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Npgsql": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.8/libexec/sdk/9.0.109/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

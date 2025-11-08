@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Bonx - Gaming Website Template HTML Version</title>
+    <meta
+      name="description"
+      content="240+ Best Bootstrap Templates are available on this website. Find your template for your project compatible with the most popular HTML library in the world."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+
+    <!-- Add site Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/png" />
+
+    <style>
+      .skip-link {
+        position: absolute;
+        left: -9999px;
+        top: auto;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+      }
+      .skip-link:focus {
+        position: static;
+        width: auto;
+        height: auto;
+        padding: 0.5rem 1rem;
+        background: #111;
+        color: #fff;
+        z-index: 10000;
+      }
+    </style>
+
+    <!-- CSS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Metal+Mania&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/slick.css" />
+    <link rel="stylesheet" href="assets/css/icofont.min.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/nice-select.css" />
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <!-- Main Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body class="body__bg" data-bgimg="assets/img/bg/body-bg2.webp">
+    <a href="#main" class="skip-link">Skip to content</a>
+
+    <!--offcanvas menu area start-->
+    <div class="body_overlay" aria-hidden="true"></div>
+    <div class="offcanvas_menu" aria-label="Offcanvas menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="offcanvas_menu_wrapper">
+              <div class="canvas_close">
+                <a href="javascript:void(0)" aria-label="Close menu"
+                  ><i class="icofont-close" aria-hidden="true"></i
+                ></a>
+              </div>
+              <div id="menu" class="text-left">
+                <ul class="offcanvas_main_menu" role="list">
+                  <li class="menu-item-has-children active" aria-current="page">
+                    <a href="index.html">Home</a>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="#">Match</a>
+                    <ul class="sub-menu" role="list">
+                      <li><a href="match.html">Match Page</a></li>
+                      <li><a href="match-details.html">Match Details</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="#">Pages</a>
+                    <ul class="sub-menu" role="list">
+                      <li><a href="about.html">About Us</a></li>
+                      <li><a href="all-game.html">All Game</a></li>
+                      <li><a href="game-details.html">Game Details</a></li>
+                      <li><a href="faq.html">Faq Page</a></li>
+                      <li><a href="players.html">Players</a></li>
+                      <li><a href="player-details.html">Player Details</a></li>
+                      <li><a href="404.html">Error 404</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="#">blog</a>
+                    <ul class="sub-menu" role="list">
+                      <li>
+                        <a href="blog-left-sidebar.html">Blog Left Sidebar</a>
+                      </li>
+                      <li>
+                        <a href="blog-right-sidebar.html">Blog Right Sidebar</a>
+                      </li>
+                      <li>
+                        <a href="blog-without-sidebar.html"
+                          >Blog Without Sidebar</a
+                        >
+                      </li>
+                      <li>
+                        <a href="blog-grid-left-sidebar.html"
+                          >Blog Grid Left Sidebar</a
+                        >
+                      </li>
+                      <li>
+                        <a href="blog-grid-right-sidebar.html"
+                          >Blog Grid Right Sidebar</a
+                        >
+                      </li>
+                      <li>
+                        <a href="blog-grid-without-sidebar.html"
+                          >Blog Grid Without Sidebar</a
+                        >
+                      </li>
+                      <li>
+                        <a href="blog-details-left-sidebar.html"
+                          >Blog Details Left Sidebar</a
+                        >
+                      </li>
+                      <li>
+                        <a href="blog-details-right-sidebar.html"
+                          >Blog Details Right Sidebar</a
+                        >
+                      </li>
+                      <li><a href="blog-details.html">Blog Details</a></li>
+                    </ul>
+                  </li>
+                  <li class="menu-item-has-children">
+                    <a href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--offcanvas menu area end-->
+
+    <!--header area start-->
+    <header
+      class="header_section header_transparent sticky-header"
+      role="banner"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div
+              class="main_header d-flex justify-content-between align-items-center"
+            >
+              <div class="header_logo">
+                <a class="sticky_none" href="index.html"
+                  ><img
+                    src="assets/img/logo/logo.webp"
+                    alt="Bonx logo"
+                    loading="lazy"
+                /></a>
+              </div>
+              <!--main menu start-->
+              <div class="main_menu d-none d-lg-block">
+                <nav aria-label="Primary">
+                  <ul class="d-flex" role="list">
+                    <li><a href="index.html">Home</a></li>
+                    <li>
+                      <a href="match.html">Match</a>
+                      <ul class="sub_menu" role="list">
+                        <li><a href="match.html">Match Page</a></li>
+                        <li><a href="match-details.html">Match Details</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#">Pages</a>
+                      <ul class="sub_menu" role="list">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="all-game.html">All Game</a></li>
+                        <li><a href="game-details.html">Game Details</a></li>
+                        <li><a href="faq.html">Faq Page</a></li>
+                        <li><a href="players.html">Players</a></li>
+                        <li>
+                          <a href="player-details.html">Player Details</a>
+                        </li>
+                        <li><a href="404.html">Error 404</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="blog-left-sidebar.html" aria-current="page"
+                        >blog</a
+                      >
+                      <ul class="sub_menu" role="list">
+                        <li>
+                          <a href="blog-left-sidebar.html">Blog Left Sidebar</a>
+                        </li>
+                        <li>
+                          <a href="blog-right-sidebar.html"
+                            >Blog Right Sidebar</a
+                          >
+                        </li>
+                        <li>
+                          <a href="blog-without-sidebar.html"
+                            >Blog Without Sidebar</a
+                          >
+                        </li>
+                        <li>
+                          <a href="blog-grid-left-sidebar.html"
+                            >Blog Grid Left Sidebar</a
+                          >
+                        </li>
+                        <li>
+                          <a href="blog-grid-right-sidebar.html"
+                            >Blog Grid Right Sidebar</a
+                          >
+                        </li>
+                        <li>
+                          <a href="blog-grid-without-sidebar.html"
+                            >Blog Grid Without Sidebar</a
+                          >
+                        </li>
+                        <li>
+                          <a href="blog-details-left-sidebar.html"
+                            >Blog Details Left Sidebar</a
+                          >
+                        </li>
+                        <li>
+                          <a href="blog-details-right-sidebar.html"
+                            >Blog Details Right Sidebar</a
+                          >
+                        </li>
+                        <li><a href="blog-details.html">Blog Details</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <!--main menu end-->
+              <div class="header_right_sidebar d-flex align-items-center">
+                <div class="sing_up_btn">
+                  <a class="btn btn-link" href="#"
+                    >SIGN UP
+                    <img
+                      src="assets/img/icon/arrrow-icon2.webp"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+                <div class="canvas_open">
+                  <a href="javascript:void(0)" aria-label="Open menu"
+                    ><i class="icofont-navigation-menu" aria-hidden="true"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--header area end-->
+
+    <!-- breadcrumbs area start -->
+    <div
+      class="breadcrumbs_aree breadcrumbs_bg mb-140"
+      data-bgimg="assets/img/bg/breadcrumbs-bg.webp"
+      role="region"
+      aria-label="Breadcrumbs"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="breadcrumbs_text text-center">
+              <h1>BLOG PAGE</h1>
+              <ul class="d-flex justify-content-center" role="list">
+                <li><a href="index.html">Home </a></li>
+                <li><span aria-hidden="true">//</span></li>
+                <li>Blog List Right Sidebar</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- breadcrumbs area end -->
+
+    <!-- page wrapper start -->
+    <main id="main" class="page_wrapper" role="main">
+      <!-- blog page section start -->
+      <section class="blog_page_section mb-140">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8">
+              <div class="blog_page_wrapper">
+                <div class="blog_page_inner">
+                  <div class="single_blog d-flex align-items-center">
+                    <div class="blog_thumb">
+                      <a href="blog-details.html"
+                        ><img
+                          src="assets/img/blog/blog1.webp"
+                          alt="Blog post thumbnail 1"
+                          loading="lazy"
+                      /></a>
+                    </div>
+                    <div class="blog_content">
+                      <div class="blog_date">
+                        <span
+                          ><i class="icofont-calendar" aria-hidden="true"></i>
+                          20 January 2021</span
+                        >
+                      </div>
+                      <h3>
+                        <a href="blog-details.html"
+                          >It long established fact that reader distracted the
+                          readable.</a
+                        >
+                      </h3>
+                      <a
+                        href="blog-details.html"
+                        aria-label="Read more: It long established fact that reader distracted the readable"
+                        >READ MORE</a
+                      >
+                    </div>
+                  </div>
+                  <div class="single_blog d-flex align-items-center">
+                    <div class="blog_thumb">
+                      <a href="blog-details.html"
+                        ><img
+                          src="assets/img/blog/blog2.webp"
+                          alt="Blog post thumbnail 2"
+                          loading="lazy"
+                      /></a>
+                    </div>
+                    <div class="blog_content">
+                      <div class="blog_date">
+                        <span
+                          ><i class="icofont-calendar" aria-hidden="true"></i>
+                          20 January 2021</span
+                        >
+                      </div>
+                      <h3>
+                        <a href="blog-details.html"
+                          >the readable content of a page when looking at its
+                          layout.</a
+                        >
+                      </h3>
+                      <a
+                        href="blog-details.html"
+                        aria-label="Read more: the readable content of a page when looking at its layout"
+                        >READ MORE</a
+                      >
+                    </div>
+                  </div>
+                  <div class="single_blog d-flex align-items-center">
+                    <div class="blog_thumb">
+                      <a href="blog-details.html"
+                        ><img
+                          src="assets/img/blog/blog3.webp"
+                          alt="Blog post thumbnail 3"
+                          loading="lazy"
+                      /></a>
+                    </div>
+                    <div class="blog_content">
+                      <div class="blog_date">
+                        <span
+                          ><i class="icofont-calendar" aria-hidden="true"></i>
+                          20 January 2021</span
+                        >
+                      </div>
+                      <h3>
+                        <a href="blog-details.html">
+                          The point of using Lorem Ipsum that more-or-less
+                          normal</a
+                        >
+                      </h3>
+                      <a
+                        href="blog-details.html"
+                        aria-label="Read more: The point of using Lorem Ipsum that more-or-less normal"
+                        >READ MORE</a
+                      >
+                    </div>
+                  </div>
+                  <div class="single_blog d-flex align-items-center">
+                    <div class="blog_thumb">
+                      <a href="blog-details.html"
+                        ><img
+                          src="assets/img/blog/blog4.webp"
+                          alt="Blog post thumbnail 4"
+                          loading="lazy"
+                      /></a>
+                    </div>
+                    <div class="blog_content">
+                      <div class="blog_date">
+                        <span
+                          ><i class="icofont-calendar" aria-hidden="true"></i>
+                          20 January 2021</span
+                        >
+                      </div>
+                      <h3>
+                        <a href="blog-details.html"
+                          >distribution of letters, as opposed using Content
+                          here</a
+                        >
+                      </h3>
+                      <a
+                        href="blog-details.html"
+                        aria-label="Read more: distribution of letters, as opposed using Content here"
+                        >READ MORE</a
+                      >
+                    </div>
+                  </div>
+                  <div class="single_blog d-flex align-items-center">
+                    <div class="blog_thumb">
+                      <a href="blog-details.html"
+                        ><img
+                          src="assets/img/blog/blog5.webp"
+                          alt="Blog post thumbnail 5"
+                          loading="lazy"
+                      /></a>
+                    </div>
+                    <div class="blog_content">
+                      <div class="blog_date">
+                        <span
+                          ><i class="icofont-calendar" aria-hidden="true"></i>
+                          20 January 2021</span
+                        >
+                      </div>
+                      <h3>
+                        <a href="blog-details.html"
+                          >It long established fact that reader distracted the
+                          readable.</a
+                        >
+                      </h3>
+                      <a
+                        href="blog-details.html"
+                        aria-label="Read more: It long established fact that reader distracted the readable"
+                        >READ MORE</a
+                      >
+                    </div>
+                  </div>
+                  <div class="single_blog d-flex align-items-center">
+                    <div class="blog_thumb">
+                      <a href="blog-details.html"
+                        ><img
+                          src="assets/img/blog/blog6.webp"
+                          alt="Blog post thumbnail 6"
+                          loading="lazy"
+                      /></a>
+                    </div>
+                    <div class="blog_content">
+                      <div class="blog_date">
+                        <span
+                          ><i class="icofont-calendar" aria-hidden="true"></i>
+                          20 January 2021</span
+                        >
+                      </div>
+                      <h3>
+                        <a href="blog-details.html"
+                          >the readable content of a page when looking at its
+                          layout.</a
+                        >
+                      </h3>
+                      <a
+                        href="blog-details.html"
+                        aria-label="Read more: the readable content of a page when looking at its layout"
+                        >READ MORE</a
+                      >
+                    </div>
+                  </div>
+                  <div class="single_blog d-flex align-items-center">
+                    <div class="blog_thumb">
+                      <a href="blog-details.html"
+                        ><img
+                          src="assets/img/blog/blog7.webp"
+                          alt="Blog post thumbnail 7"
+                          loading="lazy"
+                      /></a>
+                    </div>
+                    <div class="blog_content">
+                      <div class="blog_date">
+                        <span
+                          ><i class="icofont-calendar" aria-hidden="true"></i>
+                          20 January 2021</span
+                        >
+                      </div>
+                      <h3>
+                        <a href="blog-details.html">
+                          The point of using Lorem Ipsum that more-or-less
+                          normal</a
+                        >
+                      </h3>
+                      <a
+                        href="blog-details.html"
+                        aria-label="Read more: The point of using Lorem Ipsum that more-or-less normal"
+                        >READ MORE</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <nav
+                  class="pagination pagination_pages"
+                  role="navigation"
+                  aria-label="Pagination"
+                >
+                  <ul role="list">
+                    <li class="current" aria-current="page"><span>1</span></li>
+                    <li><a href="#" aria-label="Go to page 2">2</a></li>
+                    <li><a href="#" aria-label="Go to page 3">3</a></li>
+                    <li><a href="#" aria-label="Go to page 4">4</a></li>
+                    <li class="next">
+                      <a href="#" aria-label="Next page"
+                        ><i
+                          class="icofont-rounded-double-right"
+                          aria-hidden="true"
+                        ></i
+                      ></a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
+            <aside class="col-lg-4" aria-label="Sidebar">
+              <div class="blog_sidebar blog_widget">
+                <div class="blog_widget_list mb-50">
+                  <h3 id="search-heading">Search Here</h3>
+                  <div class="widget_search">
+                    <form
+                      action="#"
+                      role="search"
+                      aria-labelledby="search-heading"
+                    >
+                      <label class="visually-hidden" for="search-input"
+                        >Search</label
+                      >
+                      <input
+                        id="search-input"
+                        placeholder="Search here"
+                        type="text"
+                        autocomplete="off"
+                      />
+                      <button type="submit" aria-label="Search">
+                        <i class="icofont-search-1" aria-hidden="true"></i>
+                      </button>
+                    </form>
+                  </div>
+                </div>
+                <div class="blog_widget_list mb-50">
+                  <h3>POST CATEGORY</h3>
+                  <div class="widget_category blog_widget_category">
+                    <ul role="list">
+                      <li>
+                        <a href="#"
+                          ><i
+                            class="icofont-rounded-double-right"
+                            aria-hidden="true"
+                          ></i>
+                          Single Player
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i
+                            class="icofont-rounded-double-right"
+                            aria-hidden="true"
+                          ></i>
+                          Legendary
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i
+                            class="icofont-rounded-double-right"
+                            aria-hidden="true"
+                          ></i>
+                          ES Sports
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i
+                            class="icofont-rounded-double-right"
+                            aria-hidden="true"
+                          ></i>
+                          Animation Game
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#"
+                          ><i
+                            class="icofont-rounded-double-right"
+                            aria-hidden="true"
+                          ></i>
+                          Offline Game
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="blog_widget_thumb mb-50">
+                  <img
+                    src="assets/img/blog/blog-sidebar-thumb.webp"
+                    alt="Play now promotional banner"
+                    loading="lazy"
+                  />
+                  <div class="widget_play_btn">
+                    <a class="btn btn-link" href="all-game.html"
+                      >Play Now
+                      <img
+                        src="assets/img/icon/arrrow-icon.webp"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </a>
+                  </div>
+                </div>
+                <div class="blog_widget_list tags">
+                  <h3>Tags</h3>
+                  <div class="widget_tags">
+                    <ul role="list">
+                      <li><a href="#">Action</a></li>
+                      <li><a href="#">Advanture</a></li>
+                      <li><a href="#"> Esports</a></li>
+                      <li><a href="#">Fantasy</a></li>
+                      <li><a href="#">Fortnite</a></li>
+                      <li><a href="#">Matches</a></li>
+                      <li><a href="#">Streamers</a></li>
+                      <li><a href="#">Gamer</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+      <!-- blog page section end -->
+
+      <!-- gaming update section start -->
+      <section class="gaming_update_section">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div
+                class="gaming_update_inner d-flex justify-content-between align-items-center"
+                data-bgimg="assets/img/bg/gaming-update.webp"
+              >
+                <div class="gaming_update_text">
+                  <h2>
+                    Connect with us <br />
+                    for gamING update.
+                  </h2>
+                </div>
+                <div class="gaming_update_btn">
+                  <a class="btn btn-link" href="contact.html"
+                    >CONNECT NOW
+                    <img
+                      src="assets/img/icon/arrrow-icon.webp"
+                      alt=""
+                      loading="lazy"
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- gaming update section end -->
+    </main>
+    <!-- page wrapper end -->
+
+    <!--footer area start-->
+    <footer class="footer_widgets" role="contentinfo">
+      <div class="main_footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="main_footer_inner d-flex">
+                <div class="footer_widget_list">
+                  <div class="footer_logo">
+                    <a href="#"
+                      ><img
+                        src="assets/img/logo/logo.webp"
+                        alt="Bonx logo"
+                        loading="lazy"
+                    /></a>
+                  </div>
+                  <div class="footer_contact_desc">
+                    <p>
+                      It long estabhed fact that reader will ditracted the
+                      readable content looking using readable.
+                    </p>
+                  </div>
+                  <div class="footer_social">
+                    <ul class="d-flex" role="list">
+                      <li>
+                        <a
+                          class="facebook"
+                          href="https://www.facebook.com"
+                          rel="noopener noreferrer"
+                          ><i class="icofont-facebook" aria-hidden="true"></i
+                          ><span class="visually-hidden">Facebook</span></a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="dribbble"
+                          href="https://dribbble.com"
+                          rel="noopener noreferrer"
+                          ><i class="icofont-dribbble" aria-hidden="true"></i
+                          ><span class="visually-hidden">Dribbble</span></a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="youtube"
+                          href="https://www.youtube.com"
+                          rel="noopener noreferrer"
+                          ><i
+                            class="icofont-youtube-play"
+                            aria-hidden="true"
+                          ></i
+                          ><span class="visually-hidden">YouTube</span></a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          class="twitter"
+                          href="https://twitter.com"
+                          rel="noopener noreferrer"
+                          ><i class="icofont-twitter" aria-hidden="true"></i
+                          ><span class="visually-hidden">Twitter</span></a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="footer_widget_list contact">
+                  <h3>Contact</h3>
+                  <div class="footer_contact_info">
+                    <div class="footer_contact_info_list">
+                      <span>Location:</span>
+                      <p>136 Harding Ave Wheeling, West Virginia</p>
+                    </div>
+                    <div class="footer_contact_info_list">
+                      <span>Phone:</span>
+                      <p><a href="#">00 (62) 632 867 4497</a></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer_widget_list">
+                  <h3>today’s winners</h3>
+                  <div class="footer_winners_gallery">
+                    <div class="footer_winners_list d-flex">
+                      <div class="footer_winners_thumb">
+                        <a href="game-details.html"
+                          ><img
+                            src="assets/img/others/winners1.webp"
+                            alt="Winner 1"
+                            loading="lazy"
+                        /></a>
+                      </div>
+                      <div class="footer_winners_thumb">
+                        <a href="game-details.html"
+                          ><img
+                            src="assets/img/others/winners2.webp"
+                            alt="Winner 2"
+                            loading="lazy"
+                        /></a>
+                      </div>
+                      <div class="footer_winners_thumb">
+                        <a href="game-details.html"
+                          ><img
+                            src="assets/img/others/winners3.webp"
+                            alt="Winner 3"
+                            loading="lazy"
+                        /></a>
+                      </div>
+                    </div>
+                    <div class="footer_winners_list d-flex">
+                      <div class="footer_winners_thumb">
+                        <a href="game-details.html"
+                          ><img
+                            src="assets/img/others/winners4.webp"
+                            alt="Winner 4"
+                            loading="lazy"
+                        /></a>
+                      </div>
+                      <div class="footer_winners_thumb">
+                        <a href="game-details.html"
+                          ><img
+                            src="assets/img/others/winners5.webp"
+                            alt="Winner 5"
+                            loading="lazy"
+                        /></a>
+                      </div>
+                      <div class="footer_winners_thumb">
+                        <a href="game-details.html"
+                          ><img
+                            src="assets/img/others/winners6.webp"
+                            alt="Winner 6"
+                            loading="lazy"
+                        /></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="footer_widget_list footer_list_menu">
+                  <h3>Content</h3>
+                  <div class="footer_menu">
+                    <ul role="list">
+                      <li><a href="about.html"> Copywriting</a></li>
+                      <li><a href="about.html">Social Media</a></li>
+                      <li><a href="about.html">Interactive Media</a></li>
+                      <li><a href="about.html">Motion Design</a></li>
+                      <li><a href="about.html">Illustration</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer_bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="footer_bottom_inner d-flex justify-content-between">
+                <div class="copyright_right">
+                  <p>
+                    © 2021 BONX Made with
+                    <i class="icofont-heart" aria-hidden="true"></i> by
+                    <a href="https://hasthemes.com" rel="noopener noreferrer"
+                      >HasThemes</a
+                    >
+                  </p>
+                </div>
+                <div class="footer_bottom_link_menu">
+                  <ul class="d-flex" role="list">
+                    <li><a href="about.html">Terms & Condition </a></li>
+                    <li><a href="about.html">Privacy Policy </a></li>
+                  </ul>
+                </div>
+
+                <div class="scroll__top_icon">
+                  <a id="scroll-top" href="#" aria-label="Scroll to top"
+                    ><img
+                      src="assets/img/icon/scroll-top.webp"
+                      alt="Scroll to top"
+                      loading="lazy"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--footer area end-->
+
+    <!-- JS -->
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js" defer></script>
+
+    <script src="assets/js/vendor/jquery-3.6.0.min.js" defer></script>
+    <script src="assets/js/vendor/jquery-migrate-3.3.2.min.js" defer></script>
+    <script src="assets/js/vendor/popper.js" defer></script>
+    <script src="assets/js/vendor/bootstrap.min.js" defer></script>
+    <script src="assets/js/slick.min.js" defer></script>
+    <script src="assets/js/wow.min.js" defer></script>
+    <script src="assets/js/jquery.nice-select.js" defer></script>
+    <script src="assets/js/jquery.magnific-popup.min.js" defer></script>
+    <script src="assets/js/jquery.counterup.min.js" defer></script>
+    <script src="assets/js/jquery-waypoints.js" defer></script>
+
+    <!-- Main JS -->
+    <script src="assets/js/main.js" defer></script>
+
+    <noscript>
+      <style>
+        .slick__activation {
+          display: block;
+        }
+      </style>
+      JavaScript is disabled; interactive components will be static.
+    </noscript>
+  </body>
+</html>

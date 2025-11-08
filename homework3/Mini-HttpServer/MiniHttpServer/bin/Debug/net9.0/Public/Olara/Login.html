@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Sign in — Olara</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/login.css" />
+  </head>
+  <body>
+    <div class="page">
+      <div class="left">
+        <div class="logo" aria-label="Olara">
+          <!-- logo svg -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="153"
+            height="39"
+            viewBox="0 0 153 39"
+            fill="none"
+            role="img"
+            aria-hidden="true"
+          >
+            <!-- paths shortened for brevity: unchanged -->
+            <!-- ... -->
+          </svg>
+        </div>
+
+        <div class="signin">
+          <div class="account">
+            <h1>Sign in</h1>
+            <p class="hint">
+              Don’t have an account? <a href="#" rel="nofollow">Create now</a>
+            </p>
+          </div>
+
+          <form class="form" autocomplete="off" onsubmit="return false">
+            <label for="email">E-mail</label>
+            <input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="example@gmail.com"
+              autocomplete="username"
+              required
+            />
+
+            <label for="password">Password</label>
+            <div class="row password-row">
+              <input
+                id="password"
+                name="password"
+                type="password"
+                placeholder="@#*%"
+                autocomplete="current-password"
+                required
+              />
+              <button
+                type="button"
+                class="eye"
+                aria-label="Toggle password visibility"
+              >
+                <!-- eye icon -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M9.28125 12C9.28125 12.6962 9.55781 13.3639 10.0501 13.8562C10.5424 14.3484 11.2101 14.625 11.9062 14.625C12.6024 14.625 13.2701 14.3484 13.7624 13.8562C14.2547 13.3639 14.5312 12.6962 14.5312 12C14.5312 11.3038 14.2547 10.6361 13.7624 10.1438C13.2701 9.65156 12.6024 9.375 11.9062 9.375C11.2101 9.375 10.5424 9.65156 10.0501 10.1438C9.55781 10.6361 9.28125 11.3038 9.28125 12ZM22.0828 11.3953C19.8609 6.71484 16.5023 4.35938 12 4.35938C7.49531 4.35938 4.13906 6.71484 1.91719 11.3977C1.82807 11.5864 1.78185 11.7925 1.78185 12.0012C1.78185 12.2099 1.82807 12.416 1.91719 12.6047C4.13906 17.2852 7.49765 19.6406 12 19.6406C16.5047 19.6406 19.8609 17.2852 22.0828 12.6023C22.2633 12.2227 22.2633 11.782 22.0828 11.3953ZM11.9062 16.125C9.62812 16.125 7.78125 14.2781 7.78125 12C7.78125 9.72188 9.62812 7.875 11.9062 7.875C14.1844 7.875 16.0312 9.72188 16.0312 12C16.0312 14.2781 14.1844 16.125 11.9062 16.125Z"
+                    fill="#718096"
+                  />
+                </svg>
+              </button>
+            </div>
+
+            <div class="row options">
+              <label class="remember"
+                ><input type="checkbox" name="remember" value="1" /> Remember
+                me</label
+              >
+              <a class="forgot" href="#" rel="nofollow">Forgot Password?</a>
+            </div>
+
+            <button class="btn primary" type="submit" aria-label="Sign in">
+              Sign in
+            </button>
+
+            <div class="divider" role="separator" aria-label="or">
+              <span class="line"></span>
+              <span class="or">OR</span>
+              <span class="line"></span>
+            </div>
+
+            <button
+              class="btn social google"
+              type="button"
+              aria-label="Continue with Google"
+            >
+              <div class="logo-google" aria-hidden="true">
+                <!-- google icon svg unchanged -->
+                <!-- ... -->
+              </div>
+              Continue with Google
+            </button>
+
+            <button
+              class="btn social facebook"
+              type="button"
+              aria-label="Continue with Facebook"
+            >
+              <div class="logo-facebook" aria-hidden="true">
+                <!-- facebook icon svg unchanged -->
+                <!-- ... -->
+              </div>
+              Continue with Facebook
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <!-- RIGHT -->
+      <div class="right">
+        <div class="topline" aria-hidden="true">
+          <!-- topline svg unchanged -->
+          <!-- ... -->
+        </div>
+
+        <div class="promo-wrap">
+          <div class="promo-card">
+            <div class="promo-left">
+              <h2>
+                Reach financial <br />
+                goals faster
+              </h2>
+              <p class="promo-text">
+                Use your Venus card around the <br />
+                world with no hidden fees. Hold, <br />
+                transfer and spend money.
+              </p>
+              <button class="btn ghost" type="button">Learn more</button>
+            </div>
+
+            <div class="promo-right">
+              <div class="card-graphic" aria-hidden="true"></div>
+            </div>
+          </div>
+
+          <div class="earnings" aria-label="Earnings">
+            <div class="diagram" aria-hidden="true">
+              <!-- svg unchanged -->
+              <!-- ... -->
+            </div>
+            <div class="earn-value-lable">
+              <div class="earn-label">Earnings</div>
+              <div class="earn-value">$350.40</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="intro">
+          <h2>Introducing new features</h2>
+          <p>
+            Analyzing previous trends ensures that businesses always make the
+            right decision. And as the scale of the decision and its impact
+            magnifies...
+          </p>
+        </div>
+
+        <div class="point" aria-hidden="true">
+          <!-- point svg unchanged -->
+          <!-- ... -->
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
