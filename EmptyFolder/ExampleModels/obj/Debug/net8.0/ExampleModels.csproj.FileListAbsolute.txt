@@ -1,0 +1,15 @@
+/Users/mehmetkaanemmedik/MigrationSystem/ExampleModels/bin/Debug/net8.0/ExampleModels.deps.json
+/Users/mehmetkaanemmedik/MigrationSystem/ExampleModels/bin/Debug/net8.0/ExampleModels.dll
+/Users/mehmetkaanemmedik/MigrationSystem/ExampleModels/bin/Debug/net8.0/ExampleModels.pdb
+/Users/mehmetkaanemmedik/MigrationSystem/ExampleModels/bin/Debug/net8.0/MigrationLibrary.dll
+/Users/mehmetkaanemmedik/MigrationSystem/ExampleModels/bin/Debug/net8.0/MigrationLibrary.pdb
+/Users/mehmetkaanemmedik/MigrationSystem/ExampleModels/obj/Debug/net8.0/ExampleModels.csproj.AssemblyReference.cache
+/Users/mehmetkaanemmedik/MigrationSystem/ExampleModels/obj/Debug/net8.0/ExampleModels.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mehmetkaanemmedik/MigrationSystem/ExampleModels/obj/Debug/net8.0/ExampleModels.AssemblyInfoInputs.cache
+/Users/mehmetkaanemmedik/MigrationSystem/ExampleModels/obj/Debug/net8.0/ExampleModels.AssemblyInfo.cs
+/Users/mehmetkaanemmedik/MigrationSystem/ExampleModels/obj/Debug/net8.0/ExampleModels.csproj.CoreCompileInputs.cache
+/Users/mehmetkaanemmedik/MigrationSystem/ExampleModels/obj/Debug/net8.0/ExampleM.D3CA1DE0.Up2Date
+/Users/mehmetkaanemmedik/MigrationSystem/ExampleModels/obj/Debug/net8.0/ExampleModels.dll
+/Users/mehmetkaanemmedik/MigrationSystem/ExampleModels/obj/Debug/net8.0/refint/ExampleModels.dll
+/Users/mehmetkaanemmedik/MigrationSystem/ExampleModels/obj/Debug/net8.0/ExampleModels.pdb
+/Users/mehmetkaanemmedik/MigrationSystem/ExampleModels/obj/Debug/net8.0/ref/ExampleModels.dll

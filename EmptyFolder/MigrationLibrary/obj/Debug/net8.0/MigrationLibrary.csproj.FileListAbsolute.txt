@@ -1,0 +1,12 @@
+/Users/mehmetkaanemmedik/MigrationSystem/MigrationLibrary/bin/Debug/net8.0/MigrationLibrary.deps.json
+/Users/mehmetkaanemmedik/MigrationSystem/MigrationLibrary/bin/Debug/net8.0/MigrationLibrary.dll
+/Users/mehmetkaanemmedik/MigrationSystem/MigrationLibrary/bin/Debug/net8.0/MigrationLibrary.pdb
+/Users/mehmetkaanemmedik/MigrationSystem/MigrationLibrary/obj/Debug/net8.0/MigrationLibrary.csproj.AssemblyReference.cache
+/Users/mehmetkaanemmedik/MigrationSystem/MigrationLibrary/obj/Debug/net8.0/MigrationLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mehmetkaanemmedik/MigrationSystem/MigrationLibrary/obj/Debug/net8.0/MigrationLibrary.AssemblyInfoInputs.cache
+/Users/mehmetkaanemmedik/MigrationSystem/MigrationLibrary/obj/Debug/net8.0/MigrationLibrary.AssemblyInfo.cs
+/Users/mehmetkaanemmedik/MigrationSystem/MigrationLibrary/obj/Debug/net8.0/MigrationLibrary.csproj.CoreCompileInputs.cache
+/Users/mehmetkaanemmedik/MigrationSystem/MigrationLibrary/obj/Debug/net8.0/MigrationLibrary.dll
+/Users/mehmetkaanemmedik/MigrationSystem/MigrationLibrary/obj/Debug/net8.0/refint/MigrationLibrary.dll
+/Users/mehmetkaanemmedik/MigrationSystem/MigrationLibrary/obj/Debug/net8.0/MigrationLibrary.pdb
+/Users/mehmetkaanemmedik/MigrationSystem/MigrationLibrary/obj/Debug/net8.0/ref/MigrationLibrary.dll
